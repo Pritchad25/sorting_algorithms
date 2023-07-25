@@ -58,7 +58,7 @@ void bitonic_merge(int *array, size_t size, size_t start,
  */
 void bitonic_seq(int *array, size_t size, size_t start, size_t seq, char flow)
 {
-	char *str = (flow == UP) ? "UP" : "DOWN"
+	char *str = (flow == UP) ? "UP" : "DOWN";
 	size_t cut = seq / 2;
 
 	if (seq > 1)
